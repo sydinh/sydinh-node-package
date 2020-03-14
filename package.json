@@ -1,8 +1,8 @@
 {
   "name": "sydinh-node-package",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/main.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -14,8 +14,9 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "build": "webpack --config ./webpack.config.js --mode=production",
+    "build": "npm run clean && webpack --config ./webpack.config.js --mode=production",
     "prepare": "npm run build",
+    "clean": "rm -rf lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

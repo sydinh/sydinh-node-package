@@ -1,11 +1,4 @@
-function add(a, b) {
-  return a + b;
-}
+import add from './add';
+import subtract from './subtract';
 
-function subtract(a, b) {
-  return a - b;
-}
-
-export { subtract };
-
-export default add;
+export { add, subtract };

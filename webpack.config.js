@@ -1,8 +1,12 @@
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    main: './src/index.js',
+    add: './src/add.js',
+    subtract: './src/subtract.js',
+  },
   output: {
     path: `${__dirname}/lib`,
-    filename: 'index.js',
+    filename: '[name].js',
     library: 'sydinh-node-package',
     libraryTarget: 'umd',
   },
