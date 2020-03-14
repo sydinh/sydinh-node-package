@@ -1,5 +1,15 @@
-# sydinh-node-package
+# sydinh-node-package v1.0.2
 
-https://www.npmjs.com/package/sydinh-node-package
+The sydinh-node-package library exported as Node.js modules.
 
-My first node-package with Babel. Happy learning
+## Requirements
+
+- node & npm
+- git
+
+## Installation
+
+```
+$ npm i -g npm
+$ npm i sydinh-node-package
+```
