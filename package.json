@@ -1,0 +1,29 @@
+{
+  "name": "sydinh-node-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydinh/sydinh-node-package.git"
+  },
+  "keywords": [],
+  "author": "“Sy Dinh <dinhhiepsy@gmail.com”> (https://sydinh.js.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sydinh/sydinh-node-package/issues"
+  },
+  "homepage": "https://github.com/sydinh/sydinh-node-package#readme"
+}
