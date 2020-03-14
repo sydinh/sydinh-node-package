@@ -1,4 +1,4 @@
-# sydinh-node-package v1.0.2
+# sydinh-node-package v1.0.3
 
 The sydinh-node-package library exported as Node.js modules.
 
