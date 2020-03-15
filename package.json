@@ -1,5 +1,5 @@
 {
-  "name": "sydinh-node-package",
+  "name": "@sydinh/sydinh-node-package",
   "version": "1.0.5",
   "description": "",
   "main": "lib/main.js",
