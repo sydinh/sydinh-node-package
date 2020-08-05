@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "vienthuong",
+      "name": "Thuong Le",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22548423?v=4",
+      "profile": "http://shopware.thuong.lv/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "sydinh-node-package",
+  "projectOwner": "sydinh",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
