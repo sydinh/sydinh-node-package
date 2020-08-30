@@ -3,6 +3,9 @@ module.exports = {
     main: './src/index.js',
     add: './src/add.js',
     subtract: './src/subtract.js',
+    multiple: './src/multiple.js',
+    divide: './src/divide.js',
+    power: './src/power.js',
   },
   output: {
     path: `${__dirname}/lib`,
